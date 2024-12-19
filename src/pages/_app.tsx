@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
     <ChakraProvider theme={theme}>
       <QueryClientProvider client={client}>
         <Head>
-          <title>Demo Bot</title>
+          <title>gladiador</title>
         </Head>
         {getLayout(<Component {...pageProps} />)}
       </QueryClientProvider>
